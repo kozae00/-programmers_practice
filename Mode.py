@@ -26,6 +26,7 @@ def solution(array):
         if i == 0: return a
     return -1 """
 
+
 """ enumerate는 인덱스와 요소를 같이 반환하므로 위 코드에서 i는 인덱스, a가 요소가 된다.
 set(array)의 요소(a)를 지워가는 과정을 반복한다.
 array = [1, 2, 3, 3, 3, 4] 이면 set(array)는 (1, 2, 3, 4) 이다.
